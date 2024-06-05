@@ -1,0 +1,91 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background: linear-gradient(to right, #e9a750, #e1bf189c);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: "Lugrasimo", cursive;
+}
+
+.buscador {
+    margin: 20px 0;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #ff6347;
+    border-radius: 5px;
+    width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+button:hover {
+    background-color: #e55342;
+}
+
+.recetario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.plato {
+    margin: 10px;
+    border: 2px solid #ff6347;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.plato:hover {
+    transform: scale(1.05);
+}
+
+.plato img {
+    width: 100%;
+    height: auto;
+}
+
+.plato h3 {
+    background-color: #ff6347;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.receta {
+    margin-top: 20px;
+}
+
+.receta h3 {
+    color: #61271d;
+}
+
+.receta ul, .receta ol {
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.receta ul li, .receta ol li {
+    margin: 5px 0;
+}

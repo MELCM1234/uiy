@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetario</title>
+    <link rel="stylesheet" href="2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleais.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lugrasimo&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lugrasimo&family=Noto
+    +Serif:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <center><h1>Bienvenido al mundo de las recetas</h1></center>
+
+    <div class="buscador">
+        <input type="text" id="nombre" placeholder="Ingrese el nombre del plato">
+        <button onclick="buscar()">Buscar</button>
+    </div>
+
+    <div class="recetario">
+        <div class="plato" onclick="mostrarReceta('spaghetti')">
+            <img src="M.jpg" alt="Spaghetti">
+            <h3>Spaghetti</h3>
+        </div>
+        <div class="plato" onclick="mostrarReceta('ensalada')">
+            <img src="E.jpg" alt="Ensalada">
+            <h3>Ensalada</h3>
+        </div>
+        <div class="plato" onclick="mostrarReceta('pizza')">
+            <img src="L.webp" alt="Pizza">
+            <h3>Pizza</h3>
+        </div>
+        <div class="plato" onclick="mostrarReceta('hamburguesa')">
+            <img src="N.jpg" alt="Hamburguesa">
+            <h3>Hamburguesa</h3>
+        </div>
+        <div class="plato" onclick="mostrarReceta('tacos')">
+            <img src="A.jpg" alt="Tacos">
+            <h3>Tacos</h3>
+        </div>
+    </div>
+    
+    <div class="receta" id="receta">
+        <!-- Aquí se mostrará la receta -->
+    </div>
+
+    <script src="3.js"></script>
+</body>
+</html>
